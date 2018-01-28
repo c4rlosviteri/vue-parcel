@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <img src="./assets/logo.png">
-    <h1>{{ mensaje }}</h1>
+    <h1>\{{ mensaje }}</h1>
     <github-contribution :link="link">Contribuye al proyecto en GitHub</github-contribution>
   </div>
 </template>
