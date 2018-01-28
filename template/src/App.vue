@@ -31,5 +31,6 @@ export default {
 h1 {
   color: #4fc08d;
   font-weight: normal;
+  margin-bottom: 30px;
 }
 </style>
