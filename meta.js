@@ -21,5 +21,5 @@ module.exports = {
       default: "MIT"
     }
   },
-  completeMessage: "{{#inPlace}}Para empezar:\n\n  yarn\n  yarn run dev{{else}}Para empezar:\n\n  cd {{destDirName}}\n  yarn\n  yarn run dev{{/inPlace}}"
+  completeMessage: "{{#inPlace}}Para empezar:\n\n  npm i\n  npm run dev{{else}}Para empezar:\n\n  cd {{destDirName}}\n  npm i\n  npm run dev{{/inPlace}}"
 }
