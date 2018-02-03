@@ -2,26 +2,30 @@
 
 {{ description }}
 
-## Configuración básica del entorno
+## Basic setup
+
+**NPM**
 
 ``` bash
-# Con npm
-# Instalar dependencias
+# Install dependencies
 npm i
 
-# Servidor con recarga automática en localhost:3000
+# Hot-reload server for development localhost:3000
 npm run dev
 
-# Crear el bundle para producción con código minificado
+# Bundle for production
 npm run build
+```
 
-# Con yarn
-# Instalar dependencias
+**Yarn**
+
+```
+# Install dependencies
 yarn
 
-# Servidor con recarga automática en localhost:3000
+# Hot-reload server for development localhost:3000
 yarn run dev
 
-# Crear el bundle para producción con código minificado
+# Bundle for production
 yarn run build
 ```
