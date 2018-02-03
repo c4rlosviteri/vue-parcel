@@ -28,5 +28,5 @@ yarn run dev
 
 If you are willing to help to develop this project, you can fork it and here you have some docs:
 
-[vue-cli](https://github.com/vuejs/vue-cli/blob/master/README.md#writing-custom-templates-from-scratch)
+[vue-cli](https://github.com/vuejs/vue-cli/blob/master/README.md#writing-custom-templates-from-scratch)  
 [Prompt types](https://github.com/SBoudrias/Inquirer.js/#question)
