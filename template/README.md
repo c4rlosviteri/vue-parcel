@@ -5,7 +5,6 @@
 ## Basic setup
 
 **NPM**
-
 ``` bash
 # Install dependencies
 npm i
@@ -18,7 +17,6 @@ npm run build
 ```
 
 **Yarn**
-
 ```
 # Install dependencies
 yarn

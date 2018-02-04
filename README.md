@@ -8,7 +8,7 @@ You can use this template with [vue-cli](https://github.com/vuejs/vue-cli).
 
 ## Basic setup
 
-npm
+**NPM**
 ``` bash
 npm install --global vue-cli
 vue init c4rlosviteri/vue-parcel project-name
@@ -16,7 +16,8 @@ cd project-name
 npm install
 npm run dev
 ```
-yarn
+
+**Yarn**
 ``` bash
 # yarn
 yarn global vue-cli
@@ -28,9 +29,9 @@ yarn run dev
 
 ## TODO
 
-⋅⋅* Support CSS preprocessors
-⋅⋅* Support linters
-⋅⋅* Support testers
+* Support CSS preprocessors
+* Support linters
+* Support testers
 
 ## How to contribute to this project
 
