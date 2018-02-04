@@ -1,6 +1,6 @@
 # vue-parcel
 
-![vue-parcel logo](logo.png)
+<p align="center"><img src="./logo.png" alt="vue-parcel logo"></p>
 
 You can use this template with [vue-cli](https://github.com/vuejs/vue-cli).
 
@@ -19,7 +19,6 @@ npm run dev
 
 **Yarn**
 ``` bash
-# yarn
 yarn global vue-cli
 vue init c4rlosviteri/vue-parcel project-name
 cd project-name
