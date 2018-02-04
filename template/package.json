@@ -9,10 +9,8 @@
     "build": "parcel build ./src/index.html --public-url /"
   },
   "dependencies": {
-    "vue": "^2.5.13",
-    {{#router}}
-    "vue-router": "^3.0.1"
-    {{/router}}
+    "vue": "^2.5.2"{{#router}},
+    "vue-router": "^3.0.1"{{/router}}
   },
   "devDependencies": {
     "babel-core": "^6.26.0",
