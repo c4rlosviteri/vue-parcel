@@ -1,36 +1,30 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
-    <h1>\{{ mensaje }}</h1>
-    <github-contribution :link="link">Contribuye al proyecto en GitHub</github-contribution>
+    {{#router}}
+    <router-view></router-view>
+    {{else}}
+    <github-contribution :link="link">Contribute to this project on GitHub</github-contribution>
+    {{/router}}
   </div>
 </template>
 
 <script>
+{{#unless router}}
 import GithubContribution from './components/GithubContribution';
+{{/unless}}
 
 export default {
-  name: 'app',
-  data: () => ({
-    link: 'https://github.com/c4rlosviteri/vue-parcel',
-    mensaje: 'Bienvenido a tu aplicación Vue.js + Parcel'
-  }),
+  name: 'app'{{#router}},{{else}}
   components: {
     GithubContribution
-  }
+  }{{/router}}
 };
 </script>
 
 <style>
 #app {
   font-family: sans-serif;
-  margin: 60px 0;
-  text-align: center;
-}
-
-h1 {
-  color: #4fc08d;
-  font-weight: normal;
-  margin-bottom: 30px;
+  margin: 0;
+  padding: 0;
 }
 </style>

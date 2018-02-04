@@ -24,25 +24,10 @@ module.exports = {
     "router": {
       "type": "confirm",
       "message": "Install vue-router?"
-    },
-    "preprocessor": {
-      "type": "list",
-      "message": "Choose a preprocessor to install",
-      "choices": [
-        {
-          "name": "sass",
-          "value": "sass",
-        },
-        {
-          "name": "stylus",
-          "value": "stylus",
-        },
-        {
-          "name": "none",
-          "value": "none"
-        }
-      ]
     }
   },
+  "filters": {
+    "src/router/**/*": "router"
+  }
   "completeMessage": "{{#inPlace}}To get started:\n\n  npm i\n  npm run dev{{else}}To get started:\n\n  cd {{destDirName}}\n  npm i\n  npm run dev{{/inPlace}}"
 }

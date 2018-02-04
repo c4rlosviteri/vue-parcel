@@ -1,25 +1,34 @@
 <template>
-  <a :href="link" class="button">
-    <slot></slot>
-  </a>
+  <div id="github-contribution">
+    <h1>vue-parcel</h1>
+    <img src="./../assets/logo.png" alt="vue-parcel" class="github-contribution__img">
+    <a :href="link" class="github-contribution__button">Contribute to this project</a>
+  </div>
 </template>
 
 <script>
 export default {
   name: 'github-contribution',
-  props: {
-    link: String
-  }
+  data: () => ({
+    link: 'https://github.com/c4rlosviteri/vue-parcel'
+  })
 };
 </script>
 
 <style scoped>
-.button {
-  background-color: #4fc08d;
-  border-radius: 40px;
-  color: white;
-  padding: 16px 24px;
+.github-contribution {
+  margin: 20px 0;
+  text-align: center;
+}
+.github-contribution__img {
+  margin: 12px 0;
+}
+.github-contribution__button {
+  background-color: #00c385;
+  border-radius: 2px;
+  box-shadow: 0 4px 0 #00a56e;
+  color: #fff;
+  padding: 16px 20px;
   text-decoration: none;
-  transition: all .8s ease;
 }
 </style>
