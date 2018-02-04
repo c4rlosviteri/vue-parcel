@@ -1,5 +1,5 @@
 <template>
-  <div id="github-contribution">
+  <div class="github-contribution">
     <h1>vue-parcel</h1>
     <img src="./../assets/logo.png" alt="vue-parcel" class="github-contribution__img">
     <a :href="link" class="github-contribution__button">Contribute to this project</a>
@@ -28,6 +28,7 @@ export default {
   border-radius: 2px;
   box-shadow: 0 4px 0 #00a56e;
   color: #fff;
+  display: inline-block;
   padding: 16px 20px;
   text-decoration: none;
 }
