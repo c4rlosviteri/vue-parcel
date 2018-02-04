@@ -2,7 +2,9 @@
   <div class="github-contribution">
     <h1>vue-parcel</h1>
     <img src="./../assets/logo.png" alt="vue-parcel" class="github-contribution__img">
-    <a :href="link" class="github-contribution__button">Contribute to this project</a>
+    <div>
+      <a :href="link" class="github-contribution__button">Contribute to this project</a>
+    </div>
   </div>
 </template>
 
