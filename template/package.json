@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "vue": "^2.5.13",
-    {{#router}
+    {{#router}}
     "vue-router": "^3.0.1"
     {{/router}}
   },
