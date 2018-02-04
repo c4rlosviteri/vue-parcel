@@ -7,7 +7,7 @@ Vue.use(Router);
 import GithubContribution from './../components/GithubContribution';
 
 export default new Router({
-  mode: history,
+  mode: 'history',
   routes: [
     {
       path: '/',
