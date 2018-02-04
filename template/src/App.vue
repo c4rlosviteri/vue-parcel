@@ -13,10 +13,10 @@
 import GithubContribution from './components/GithubContribution';
 {{/unless}}
 export default {
-  name: 'app'{{#router}},{{else}}
+  name: 'app'{{#unless router}},
   components: {
     GithubContribution
-  }{{/router}}
+  }{{/unless}}
 };
 </script>
 
