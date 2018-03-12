@@ -4,7 +4,7 @@
 
 You can use this template with [vue-cli](https://github.com/vuejs/vue-cli).
 
-**vue-parcel** is a Vue.js + Parcel template with hot reloading, and *supports **vue-router***.
+**vue-parcel** is a Vue.js + Parcel template with hot reloading, and *supports **vuex & vue-router***.
 
 ## Basic setup
 
