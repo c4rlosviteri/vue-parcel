@@ -9,14 +9,14 @@
     "build": "parcel build ./src/index.html --public-url /"
   },
   "dependencies": {
-    "vue": "^2.5.2"{{#router}},
+    "vue": "^2.5.15"{{#router}},
     "vue-router": "^3.0.1"{{/router}}
   },
   "devDependencies": {
     "babel-core": "^6.26.0",
-    "babel-preset-env": "^1.6.0",
-    "cross-env": "^5.0.5",
-    "parcel-bundler": "^1.3.1",
-    "parcel-plugin-vue": "^1.4.0"
+    "babel-preset-env": "^1.6.1",
+    "cross-env": "^5.1.4",
+    "parcel-bundler": "^1.6.2",
+    "parcel-plugin-vue": "^1.5.0"
   }
 }
