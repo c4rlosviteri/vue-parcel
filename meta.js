@@ -24,10 +24,15 @@ module.exports = {
     "router": {
       "type": "confirm",
       "message": "Install vue-router?"
+    },
+    "vuex": {
+      "type": "confirm",
+      "message": "Install vuex?"
     }
   },
   "filters": {
-    "src/router/**/*": "router"
+    "src/router/**/*": "router",
+    "src/store/**/*": "vuex"
   },
   "completeMessage": "{{#inPlace}}To get started:\n\n  npm i\n  npm run dev{{else}}To get started:\n\n  cd {{destDirName}}\n  npm i\n  npm run dev{{/inPlace}}"
 }

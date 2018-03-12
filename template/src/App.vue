@@ -11,6 +11,7 @@
 <script>
 {{#unless router}}
 import GithubContribution from './components/GithubContribution';
+
 {{/unless}}
 export default {
   name: 'app'{{#unless router}},
