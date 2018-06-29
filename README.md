@@ -1,5 +1,7 @@
 # vue-parcel
 
+DEPRECATED SINCE PARCEL ADD NATIVE SUPPORT
+
 <p align="center"><img src="./logo.png" alt="vue-parcel logo"></p>
 
 You can use this template with [vue-cli](https://github.com/vuejs/vue-cli).
