@@ -1,6 +1,6 @@
 # vue-parcel
 
-DEPRECATED SINCE PARCEL ADD NATIVE SUPPORT
+DEPRECATED SINCE PARCEL ADDED NATIVE SUPPORT
 
 <p align="center"><img src="./logo.png" alt="vue-parcel logo"></p>
 
